@@ -1,0 +1,29 @@
+.hex {
+    margin-top: 30px;
+    width: 104px;
+    height: 60px;
+    background-color: seagreen;
+    border-color: seagreen;
+    position: relative;
+    display: inline-block;
+}
+.hex:before {
+    content: " ";
+    width: 0; height: 0;
+    border-bottom: 30px solid;
+    border-color: inherit;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    position: absolute;
+    top: -30px;
+}
+.hex:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    bottom: -30px;
+    border-top: 30px solid;
+    border-color: inherit;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
