@@ -93,3 +93,10 @@ body {
     background-position: center;
     background-size: cover;
   }
+
+  #hex3 {
+    background-color: teal;
+    background-image: url("images/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+  }
