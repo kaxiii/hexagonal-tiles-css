@@ -1,6 +1,11 @@
 body {
-    background-color: black;
     margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  color: teal;
 }
 
 .menu-container {
@@ -12,6 +17,16 @@ body {
   }
   .hex-wrapper {
     display: inline-block;
+    -webkit-transform: perspective(600px) rotateX(30deg);
+    -moz-transform: perspective(600px) rotateX(30deg);
+    -ms-transform: perspective(600px) rotateX(30deg);
+    -o-transform: perspective(600px) rotateX(30deg);
+    transform: perspective(600px) rotateX(30deg);
+
+    width: 500px;
+    height: 250px;
+    overflow-x: scroll;
+    overflow-y: scroll;
   }
   .hex-row {
     clear: left;
@@ -80,51 +95,23 @@ body {
     transform: rotate(60deg) translate(110px, 0);
   }
 
-  #hex-home {
+  #hex-desert {
     background-color: orangered;
-    background-image: url("images/orange.jpg");
+    background-image: url("../images/orange.jpg");
     background-position: center;
     background-size: cover;
   }
 
-  #hex1 {
+  #hex-sea {
     background-color: teal;
-    background-image: url("images/ocean.jpg");
+    background-image: url("../images/ocean.jpg");
     background-position: center;
     background-size: cover;
   }
 
-  #hex2 {
-    background-color: teal;
-    background-image: url("images/ocean.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-
-  #hex3 {
+  #hex-grass {
     background-color: green;
-    background-image: url("images/grass.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-
-  #hex4 {
-    background-color: teal;
-    background-image: url("images/ocean.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-
-  #hex5 {
-    background-color: teal;
-    background-image: url("images/ocean.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-
-  #hex6 {
-    background-color: teal;
-    background-image: url("images/ocean.jpg");
+    background-image: url("../images/grass.jpg");
     background-position: center;
     background-size: cover;
   }
