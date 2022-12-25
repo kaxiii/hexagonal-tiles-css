@@ -17,16 +17,11 @@ h1 {
   }
   .hex-wrapper {
     display: inline-block;
-    -webkit-transform: perspective(600px) rotateX(30deg);
-    -moz-transform: perspective(600px) rotateX(30deg);
-    -ms-transform: perspective(600px) rotateX(30deg);
-    -o-transform: perspective(600px) rotateX(30deg);
-    transform: perspective(600px) rotateX(30deg);
-
-    width: 500px;
-    height: 250px;
-    overflow-x: scroll;
-    overflow-y: scroll;
+    -webkit-transform: perspective(900px) rotateX(30deg);
+    -moz-transform: perspective(900px) rotateX(30deg);
+    -ms-transform: perspective(900px) rotateX(30deg);
+    -o-transform: perspective(900px) rotateX(30deg);
+    transform: perspective(900px) rotateX(30deg);
   }
   .hex-row {
     clear: left;

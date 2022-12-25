@@ -1,0 +1,22 @@
+.container {
+  -webkit-transform: perspective(900px) rotateX(30deg);
+  -moz-transform: perspective(900px) rotateX(30deg);
+  -ms-transform: perspective(900px) rotateX(30deg);
+  -o-transform: perspective(900px) rotateX(30deg);
+  transform: perspective(900px) rotateX(30deg);
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tile {
+  display: inline-block;
+  background-color: teal;
+  color: white;
+  margin: 1px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
