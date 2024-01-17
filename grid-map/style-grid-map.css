@@ -1,6 +1,12 @@
 body {
-    background-color: black;
     margin: 0;
+    background-color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  color: teal;
 }
 
 .menu-container {
@@ -12,6 +18,11 @@ body {
   }
   .hex-wrapper {
     display: inline-block;
+    -webkit-transform: perspective(900px) rotateX(30deg);
+    -moz-transform: perspective(900px) rotateX(30deg);
+    -ms-transform: perspective(900px) rotateX(30deg);
+    -o-transform: perspective(900px) rotateX(30deg);
+    transform: perspective(900px) rotateX(30deg);
   }
   .hex-row {
     clear: left;
@@ -32,7 +43,7 @@ body {
     line-height: 110px;
     text-align: center;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 2em;
     font-weight: bold;
     letter-spacing: 6px;
     color: white;
@@ -44,7 +55,7 @@ body {
     color: yellow;
     text-shadow: 0 0 10px yellow;
     background-color: orangered;
-    font-size: 1.1em;
+    font-size: 2.2em;
   }
   .hexagon .face1,
   .hexagon .face2 {
@@ -80,51 +91,23 @@ body {
     transform: rotate(60deg) translate(110px, 0);
   }
 
-  #hex-home {
+  #hex-desert {
     background-color: orangered;
-    background-image: url("images/orange.jpg");
+    background-image: url("../images/orange.jpg");
     background-position: center;
     background-size: cover;
   }
 
-  #hex1 {
+  #hex-sea {
     background-color: teal;
-    background-image: url("images/ocean.jpg");
+    background-image: url("../images/ocean.jpg");
     background-position: center;
     background-size: cover;
   }
 
-  #hex2 {
-    background-color: teal;
-    background-image: url("images/ocean.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-
-  #hex3 {
+  #hex-grass {
     background-color: green;
-    background-image: url("images/grass.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-
-  #hex4 {
-    background-color: teal;
-    background-image: url("images/ocean.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-
-  #hex5 {
-    background-color: teal;
-    background-image: url("images/ocean.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-
-  #hex6 {
-    background-color: teal;
-    background-image: url("images/ocean.jpg");
+    background-image: url("../images/grass.jpg");
     background-position: center;
     background-size: cover;
   }
